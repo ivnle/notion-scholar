@@ -53,13 +53,17 @@ def get_bibtex_str(entry: dict) -> str:
 
     bibtex_str = dumps(database)
     if len(bibtex_str) > 2000:
-        copied_entry.pop('abstract', None)
-        warnings.warn(
-            f'{entry["ID"]} has its bibtex dump too long ({len(bibtex_str)} > 2000). '
-            f'Because of API limitation of 2000 characters, the abstract tag has '
-            f'therefore been removed.',
-            stacklevel=0,
-        )
+        # copied_entry.pop('abstract', None)
+        # warnings.warn(
+        #     f'{entry["ID"]} has its bibtex dump too long ({len(bibtex_str)} > 2000). '
+        #     f'Because of API limitation of 2000 characters, the abstract tag has '
+        #     f'therefore been removed.',
+        #     stacklevel=0,
+        # )
+        # truncate abstract such that len(bibtex_str) <= 2000
+        abstract = copied_entry.get('abstract', '')
+        chars_to_remove = len(bibtex_str) - 2000
+        copied_entry['abstract'] = abstract[:-chars_to_remove]
 
     return dumps(database)
 

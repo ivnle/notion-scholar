@@ -1,3 +1,220 @@
+@inproceedings{bjerva-etal-2020-sigtyp,
+    title = "{SIGTYP} 2020 Shared Task: Prediction of Typological Features",
+    author = "Bjerva, Johannes  and
+      Salesky, Elizabeth  and
+      Mielke, Sabrina J.  and
+      Chaudhary, Aditi  and
+      Celano, Giuseppe G. A.  and
+      Ponti, Edoardo Maria  and
+      Vylomova, Ekaterina  and
+      Cotterell, Ryan  and
+      Augenstein, Isabelle",
+    booktitle = "Proceedings of the Second Workshop on Computational Research in Linguistic Typology",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.sigtyp-1.1",
+    doi = "10.18653/v1/2020.sigtyp-1.1",
+    pages = "1--11",
+    abstract = "Typological knowledge bases (KBs) such as WALS (Dryer and Haspelmath, 2013) contain information about linguistic properties of the world{'}s languages. They have been shown to be useful for downstream applications, including cross-lingual transfer learning and linguistic probing. A major drawback hampering broader adoption of typological KBs is that they are sparsely populated, in the sense that most languages only have annotations for some features, and skewed, in that few features have wide coverage. As typological features often correlate with one another, it is possible to predict them and thus automatically populate typological KBs, which is also the focus of this shared task. Overall, the task attracted 8 submissions from 5 teams, out of which the most successful methods make use of such feature correlations. However, our error analysis reveals that even the strongest submitted systems struggle with predicting feature values for languages where few features are known.",
+}
+
+@article{Hart1994ToDS,
+  title={To decode short cryptograms},
+  author={George W. Hart},
+  journal={Commun. ACM},
+  year={1994},
+  volume={37},
+  pages={102-108},
+  url={https://www.cs.rochester.edu/~brown/Crypto/reading/ShortCrypts.pdf},
+}
+
+@article{Olson2007RobustDA,
+  title={Robust Dictionary Attack of Short Simple Substitution Ciphers},
+  author={Edwin Olson},
+  journal={Cryptologia},
+  year={2007},
+  volume={31},
+  pages={332 - 342},
+  abstract={Simple substitution ciphers are a class of puzzles often found in newspapers, in which each plaintext letter is mapped to a fixed ciphertext letter and spaces are preserved. In this article, a system for automatically solving them is described even when the ciphertext is too short for statistical analysis, and when the puzzle contains non-dictionary words. The approach is based around a dictionary attack; several important performance optimizations are described as well as effective techniques for dealing with non-dictionary words. Quantitative performance results for several variations of the approach and two other implementations are presented.},
+  url={https://april.eecs.umich.edu/media/pdfs/olson2007crypt.pdf},
+}
+
+@inproceedings{Oranchak2008EvolutionaryAF,
+  title={Evolutionary algorithm for decryption of monoalphabetic homophonic substitution ciphers encoded as constraint satisfaction problems},
+  author={David Oranchak},
+  booktitle={Annual Conference on Genetic and Evolutionary Computation},
+  year={2008},
+  url={http://gpbib.cs.ucl.ac.uk/gecco2008/docs/p1717.pdf},
+}
+
+@inproceedings {eacl2023,
+       title = "Decipherment as Regression: Solving Historical Substitution Ciphers by Learning Symbol Recurrence Relations",
+       author = "Kambhatla, Nishant and Born, Logan  and Sarkar, Anoop",
+       booktitle = "Findings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: EACL 2023 Findings",
+       month = jan,
+       year = "2023",
+       address = "Dubrovnik, Croatia",
+       publisher = "Association for Computational Linguistics",
+       url = "https://aclanthology.org/",
+       abstract = "Solving substitution ciphers involves mapping sequences of cipher symbols to fluent text in a target language. This has conventionally been formulated as a search problem, to find the decipherment key using a character-level language model to constrain the search space. This work instead frames decipherment as a sequence prediction task, using a Transformer-based causal language model to learn recurrences between characters in a ciphertext. We introduce a novel technique for transcribing arbitrary substitution ciphers into a common \textit { recurrence encoding } . By leveraging this technique, we (i) create a large synthetic dataset of homophonic ciphers using random keys, and (ii) train a decipherment model that predicts the plaintext sequence given a recurrence-encoded ciphertext. Our method achieves strong results on synthetic 1:1 and homophonic ciphers, and cracks several real historic homophonic ciphers. Our analysis shows that the model learns recurrence relations between cipher symbols and recovers decipherment keys in its self-attention."
+    } 
+
+@inproceedings{mccarthy-etal-2020-measuring,
+    title = "Measuring the Similarity of Grammatical Gender Systems by Comparing Partitions",
+    author = "McCarthy, Arya D.  and
+      Williams, Adina  and
+      Liu, Shijia  and
+      Yarowsky, David  and
+      Cotterell, Ryan",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.456",
+    doi = "10.18653/v1/2020.emnlp-main.456",
+    pages = "5664--5675",
+    abstract = "A grammatical gender system divides a lexicon into a small number of relatively fixed grammatical categories. How similar are these gender systems across languages? To quantify the similarity, we define gender systems extensionally, thereby reducing the problem of comparisons between languages{'} gender systems to cluster evaluation. We borrow a rich inventory of statistical tools for cluster evaluation from the field of community detection (Driver and Kroeber, 1932; Cattell, 1945), that enable us to craft novel information theoretic metrics for measuring similarity between gender systems. We first validate our metrics, then use them to measure gender system similarity in 20 languages. We then ask whether our gender system similarities alone are sufficient to reconstruct historical relationships between languages. Towards this end, we make phylogenetic predictions on the popular, but thorny, problem from historical linguistics of inducing a phylogenetic tree over extant Indo-European languages. Of particular interest, languages on the same branch of our phylogenetic tree are notably similar, whereas languages from separate branches are no more similar than chance.",
+}
+
+@inproceedings{rama-etal-2020-probing,
+    title = "Probing Multilingual {BERT} for Genetic and Typological Signals",
+    author = "Rama, Taraka  and
+      Beinborn, Lisa  and
+      Eger, Steffen",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2020.coling-main.105",
+    doi = "10.18653/v1/2020.coling-main.105",
+    pages = "1214--1228",
+    abstract = "We probe the layers in multilingual BERT (mBERT) for phylogenetic and geographic language signals across 100 languages and compute language distances based on the mBERT representations. We 1) employ the language distances to infer and evaluate language trees, finding that they are close to the reference family tree in terms of quartet tree distance, 2) perform distance matrix regression analysis, finding that the language distances can be best explained by phylogenetic and worst by structural factors and 3) present a novel measure for measuring diachronic meaning stability (based on cross-lingual representation variability) which correlates significantly with published ranked lists based on linguistic approaches. Our results contribute to the nascent field of typological interpretability of cross-lingual text representations.",
+}
+
+@inproceedings{dutta-chowdhury-etal-2020-understanding,
+    title = "Understanding Translationese in Multi-view Embedding Spaces",
+    author = "Dutta Chowdhury, Koel  and
+      Espa{\~n}a-Bonet, Cristina  and
+      van Genabith, Josef",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2020.coling-main.532",
+    doi = "10.18653/v1/2020.coling-main.532",
+    pages = "6056--6062",
+    abstract = "Recent studies use a combination of lexical and syntactic features to show that footprints of the source language remain visible in translations, to the extent that it is possible to predict the original source language from the translation. In this paper, we focus on embedding-based semantic spaces, exploiting departures from isomorphism between spaces built from original target language and translations into this target language to predict relations between languages in an unsupervised way. We use different views of the data {---} words, parts of speech, semantic tags and synsets {---} to track translationese. Our analysis shows that (i) semantic distances between original target language and translations into this target language can be detected using the notion of isomorphism, (ii) language family ties with characteristics similar to linguistically motivated phylogenetic trees can be inferred from the distances and (iii) with delexicalised embeddings exhibiting source-language interference most significantly, other levels of abstraction display the same tendency, indicating the lexicalised results to be not {``}just{''} due to possible topic differences between original and translated texts. To the best of our knowledge, this is the first time departures from isomorphism between embedding spaces are used to track translationese.",
+}
+
+@inproceedings{dutta-chowdhury-etal-2021-tracing,    title = "Tracing Source Language Interference in Translation with Graph-Isomorphism Measures",    author = "Dutta Chowdhury, Koel  and      Espa{\~n}a-Bonet, Cristina  and      van Genabith, Josef",    booktitle = "Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2021)",    month = sep,    year = "2021",    address = "Held Online",    publisher = "INCOMA Ltd.",    url = "https://aclanthology.org/2021.ranlp-1.43",    pages = "375--385",    abstract = "Previous research has used linguistic features to show that translations exhibit traces of source language interference and that phylogenetic trees between languages can be reconstructed from the results of translations into the same language. Recent research has shown that instances of translationese (source language interference) can even be detected in embedding spaces, comparing embeddings spaces of original language data with embedding spaces resulting from translations into the same language, using a simple Eigenvector-based divergence from isomorphism measure. To date, it remains an open question whether alternative graph-isomorphism measures can produce better results. In this paper, we (i) explore Gromov-Hausdorff distance, (ii) present a novel spectral version of the Eigenvector-based method, and (iii) evaluate all approaches against a broad linguistic typological database (URIEL). We show that language distances resulting from our spectral isomorphism approaches can reproduce genetic trees on a par with previous work without requiring any explicit linguistic information and that the results can be extended to non-Indo-European languages. Finally, we show that the methods are robust under a variety of modeling conditions.",}
+
+@inproceedings{rabinovich-etal-2017-found,
+    title = "Found in Translation: Reconstructing Phylogenetic Language Trees from Translations",
+    author = "Rabinovich, Ella  and
+      Ordan, Noam  and
+      Wintner, Shuly",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P17-1049",
+    doi = "10.18653/v1/P17-1049",
+    pages = "530--540",
+    abstract = "Translation has played an important role in trade, law, commerce, politics, and literature for thousands of years. Translators have always tried to be invisible; ideal translations should look as if they were written originally in the target language. We show that traces of the source language remain in the translation product to the extent that it is possible to uncover the history of the source language by looking only at the translation. Specifically, we automatically reconstruct phylogenetic language trees from monolingual texts (translated from several source languages). The signal of the source language is so powerful that it is retained even after two phases of translation. This strongly indicates that source language interference is the most dominant characteristic of translated texts, overshadowing the more subtle signals of universal properties of translation.",
+}
+
+@inproceedings{yu-etal-2021-language,    title = "Language Embeddings for Typology and Cross-lingual Transfer Learning",    author = "Yu, Dian  and      He, Taiqi  and      Sagae, Kenji",    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",    month = aug,    year = "2021",    address = "Online",    publisher = "Association for Computational Linguistics",    url = "https://aclanthology.org/2021.acl-long.560",    doi = "10.18653/v1/2021.acl-long.560",    pages = "7210--7225",    abstract = "Cross-lingual language tasks typically require a substantial amount of annotated data or parallel translation data. We explore whether language representations that capture relationships among languages can be learned and subsequently leveraged in cross-lingual tasks without the use of parallel data. We generate dense embeddings for 29 languages using a denoising autoencoder, and evaluate the embeddings using the World Atlas of Language Structures (WALS) and two extrinsic tasks in a zero-shot setting: cross-lingual dependency parsing and cross-lingual natural language inference.",}
+
+@article{Zhao2020ConstructingAF,
+  title={Constructing a Family Tree of Ten Indo-European Languages with Delexicalized Cross-linguistic Transfer Patterns},
+  author={Yuanyuan Zhao and Weiwei Sun and Xiaojun Wan},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2007.09076}
+}
+
+@inproceedings{oncevay-etal-2020-bridging,
+    title = "Bridging Linguistic Typology and Multilingual Machine Translation with Multi-View Language Representations",
+    author = "Oncevay, Arturo  and
+      Haddow, Barry  and
+      Birch, Alexandra",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.187",
+    doi = "10.18653/v1/2020.emnlp-main.187",
+    pages = "2391--2406",
+    abstract = "Sparse language vectors from linguistic typology databases and learned embeddings from tasks like multilingual machine translation have been investigated in isolation, without analysing how they could benefit from each other{'}s language characterisation. We propose to fuse both views using singular vector canonical correlation analysis and study what kind of information is induced from each source. By inferring typological features and language phylogenies, we observe that our representations embed typology and strengthen correlations with language relationships. We then take advantage of our multi-view language vector space for multilingual machine translation, where we achieve competitive overall translation accuracy in tasks that require information about language similarities, such as language clustering and ranking candidates for multilingual transfer. With our method, we can easily project and assess new languages without expensive retraining of massive multilingual or ranking models, which are major disadvantages of related approaches.",
+}
+
+@inproceedings{scholivet-etal-2019-typological,
+    title = "Typological Features for Multilingual Delexicalised Dependency Parsing",
+    author = "Scholivet, Manon  and
+      Dary, Franck  and
+      Nasr, Alexis  and
+      Favre, Benoit  and
+      Ramisch, Carlos",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1393",
+    doi = "10.18653/v1/N19-1393",
+    pages = "3919--3930",
+    abstract = "The existence of universal models to describe the syntax of languages has been debated for decades. The availability of resources such as the Universal Dependencies treebanks and the World Atlas of Language Structures make it possible to study the plausibility of universal grammar from the perspective of dependency parsing. Our work investigates the use of high-level language descriptions in the form of typological features for multilingual dependency parsing. Our experiments on multilingual parsing for 40 languages show that typological information can indeed guide parsers to share information between similar languages beyond simple language identification.",
+}
+
+@article{beinborn-choenni-2020-semantic,
+    title = "Semantic Drift in Multilingual Representations",
+    author = "Beinborn, Lisa  and
+      Choenni, Rochelle",
+    journal = "Computational Linguistics",
+    volume = "46",
+    number = "3",
+    month = sep,
+    year = "2020",
+    url = "https://aclanthology.org/2020.cl-3.2",
+    doi = "10.1162/coli_a_00382",
+    pages = "571--603",
+    abstract = "Multilingual representations have mostly been evaluated based on their performance on specific tasks. In this article, we look beyond engineering goals and analyze the relations between languages in computational representations. We introduce a methodology for comparing languages based on their organization of semantic concepts. We propose to conduct an adapted version of representational similarity analysis of a selected set of concepts in computational multilingual representations. Using this analysis method, we can reconstruct a phylogenetic tree that closely resembles those assumed by linguistic experts. These results indicate that multilingual distributional representations that are only trained on monolingual text and bilingual dictionaries preserve relations between languages without the need for any etymological information. In addition, we propose a measure to identify semantic drift between language families. We perform experiments on word-based and sentence-based multilingual models and provide both quantitative results and qualitative examples. Analyses of semantic drift in multilingual representations can serve two purposes: They can indicate unwanted characteristics of the computational models and they provide a quantitative means to study linguistic phenomena across languages.",
+}
+
+@article{bjerva-etal-2019-language,
+    title = "What Do Language Representations Really Represent?",
+    author = {Bjerva, Johannes  and
+      {\"O}stling, Robert  and
+      Veiga, Maria Han  and
+      Tiedemann, J{\"o}rg  and
+      Augenstein, Isabelle},
+    journal = "Computational Linguistics",
+    volume = "45",
+    number = "2",
+    month = jun,
+    year = "2019",
+    address = "Cambridge, MA",
+    publisher = "MIT Press",
+    url = "https://aclanthology.org/J19-2006",
+    doi = "10.1162/coli_a_00351",
+    pages = "381--389",
+    abstract = "A neural language model trained on a text corpus can be used to induce distributed representations of words, such that similar words end up with similar representations. If the corpus is multilingual, the same model can be used to learn distributed representations of languages, such that similar languages end up with similar representations. We show that this holds even when the multilingual corpus has been translated into English, by picking up the faint signal left by the source languages. However, just as it is a thorny problem to separate semantic from syntactic similarity in word representations, it is not obvious what type of similarity is captured by language representations. We investigate correlations and causal relationships between language representations learned from translations on one hand, and genetic, geographical, and several levels of structural similarity between languages on the other. Of these, structural similarity is found to correlate most strongly with language representation similarity, whereas genetic relationships{---}a convenient benchmark used for evaluation in previous work{---}appears to be a confounding factor. Apart from implications about translation effects, we see this more generally as a case where NLP and linguistic typology can interact and benefit one another.",
+}
+
+@inproceedings{Oncevay2019TowardsAM,
+  title={Towards a Multi-view Language Representation: A Shared Space of Discrete and Continuous Language Features},
+  author={Arturo Oncevay and Barry Haddow and Alexandra Birch},
+  year={2019},
+  url={https://www.semanticscholar.org/paper/Towards-a-Multi-view-Language-Representation%3A-A-of-Oncevay-Haddow/72d3b4fd389d0e80e57386aa6c98b8c7a2ad1e16},
+}
+
 @article{rabinovich-etal-2018-native,
     title = "Native Language Cognate Effects on Second Language Lexical Choice",
     author = "Rabinovich, Ella  and
@@ -163,54 +380,6 @@
     pages = "9111--9121",
     abstract = "This work describes the first thorough analysis of {``}header{''} signs in proto-Elamite, an undeciphered script from 3100-2900 BCE. Headers are a category of signs which have been provisionally identified through painstaking manual analysis of this script by domain experts. We use unsupervised neural and statistical sequence modeling techniques to provide new and independent evidence for the existence of headers, without supervision from domain experts. Having affirmed the existence of headers as a legitimate structural feature, we next arrive at a richer understanding of their possible meaning and purpose by (i) examining which features predict their presence; (ii) identifying correlations between these features and other document properties; and (iii) examining cases where these features predict the presence of a header in texts where domain experts do not expect one (or vice versa). We provide more concrete processes for labeling headers in this corpus and a clearer justification for existing intuitions about document structure in proto-Elamite.",
 }
-@inproceedings{sharma-etal-2022-findings,
-    title = "Findings of the {CONSTRAINT} 2022 Shared Task on Detecting the Hero, the Villain, and the Victim in Memes",
-    author = "Sharma, Shivam  and
-      Suresh, Tharun  and
-      Kulkarni, Atharva  and
-      Mathur, Himanshi  and
-      Nakov, Preslav  and
-      Akhtar, Md. Shad  and
-      Chakraborty, Tanmoy",
-    booktitle = "Proceedings of the Workshop on Combating Online Hostile Posts in Regional Languages during Emergency Situations",
-    month = may,
-    year = "2022",
-    address = "Dublin, Ireland",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.constraint-1.1",
-    doi = "10.18653/v1/2022.constraint-1.1",
-    pages = "1--11",
-    abstract = "We present the findings of the shared task at the CONSTRAINT 2022 Workshop: Hero, Villain, and Victim: Dissecting harmful memes for Semantic role labeling of entities. The task aims to delve deeper into the domain of meme comprehension by deciphering the connotations behind the entities present in a meme. In more nuanced terms, the shared task focuses on determining the victimizing, glorifying, and vilifying intentions embedded in meme entities to explicate their connotations. To this end, we curate HVVMemes, a novel meme dataset of about 7000 memes spanning the domains of COVID-19 and US Politics, each containing entities and their associated roles: hero, villain, victim, or none. The shared task attracted 105 participants, but eventually only 6 submissions were made. Most of the successful submissions relied on fine-tuning pre-trained language and multimodal models along with ensembles. The best submission achieved an F1-score of 58.67.",
-}
-@inproceedings{botev-etal-2022-deciphering,
-    title = "Deciphering and Characterizing Out-of-Vocabulary Words for Morphologically Rich Languages",
-    author = "Botev, Georgie  and
-      McCarthy, Arya D.  and
-      Wu, Winston  and
-      Yarowsky, David",
-    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
-    month = oct,
-    year = "2022",
-    address = "Gyeongju, Republic of Korea",
-    publisher = "International Committee on Computational Linguistics",
-    url = "https://aclanthology.org/2022.coling-1.472",
-    pages = "5309--5326",
-    abstract = "This paper presents a detailed foundational empirical case study of the nature of out-of-vocabulary words encountered in modern text in a moderate-resource language such as Bulgarian, and a multi-faceted distributional analysis of the underlying word-formation processes that can aid in their compositional translation, tagging, parsing, language modeling, and other NLP tasks. Given that out-of-vocabulary (OOV) words generally present a key open challenge to NLP and machine translation systems, especially toward the lower limit of resource availability, there are useful practical insights, as well as corpus-linguistic insights, from both a detailed manual and automatic taxonomic analysis of the types, multidimensional properties, and processing potential for multiple representative OOV data samples.",
-}
-@inproceedings{ui-dhonnchadha-etal-2022-cipher,
-    title = "Cipher {--} Faoi Gheasa: A Game-with-a-Purpose for {I}rish",
-    author = "U{\'\i} Dhonnchadha, Elaine  and
-      Ward, Monica  and
-      Xu, Liang",
-    booktitle = "Proceedings of the 4th Celtic Language Technology Workshop within LREC2022",
-    month = jun,
-    year = "2022",
-    address = "Marseille, France",
-    publisher = "European Language Resources Association",
-    url = "https://aclanthology.org/2022.cltw-1.11",
-    pages = "77--84",
-    abstract = "This paper describes Cipher {--} Faoi Gheasa, a {`}game with a purpose{'} designed to support the learning of Irish in a fun and enjoyable way. The aim of the game is to promote language {`}noticing{'} and to combine the benefits of reading with the enjoyment of computer game playing, in a pedagogically beneficial way. In this paper we discuss pedagogical challenges for Irish, the development of measures for the selection and ranking of reading materials, as well as initial results of game evaluation. Overall user feedback is positive and further testing and development is envisaged.",
-}
 @inproceedings{kambhatla-etal-2022-cipherdaug,
     title = "{C}ipher{DA}ug: Ciphertext based Data Augmentation for Neural Machine Translation",
     author = "Kambhatla, Nishant  and
@@ -225,19 +394,6 @@
     doi = "10.18653/v1/2022.acl-long.17",
     pages = "201--218",
     abstract = "We propose a novel data-augmentation technique for neural machine translation based on ROT-$k$ ciphertexts. ROT-$k$ is a simple letter substitution cipher that replaces a letter in the plaintext with the $k$th letter after it in the alphabet. We first generate multiple ROT-$k$ ciphertexts using different values of $k$ for the plaintext which is the source side of the parallel data. We then leverage this enciphered training data along with the original parallel data via multi-source training to improve neural machine translation. Our method, CipherDAug, uses a co-regularization-inspired training procedure, requires no external data sources other than the original training data, and uses a standard Transformer to outperform strong data augmentation techniques on several datasets by a significant margin. This technique combines easily with existing approaches to data augmentation, and yields particularly strong results in low-resource settings.",
-}
-@inproceedings{mubarak-hassan-2021-ul2c,
-    title = "{UL}2{C}: Mapping User Locations to Countries on {A}rabic {T}witter",
-    author = "Mubarak, Hamdy  and
-      Hassan, Sabit",
-    booktitle = "Proceedings of the Sixth Arabic Natural Language Processing Workshop",
-    month = apr,
-    year = "2021",
-    address = "Kyiv, Ukraine (Virtual)",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.wanlp-1.15",
-    pages = "145--153",
-    abstract = "Mapping user locations to countries can be useful for many applications such as dialect identification, author profiling, recommendation system, etc. Twitter allows users to declare their locations as free text, and these user-declared locations are often noisy and hard to decipher automatically. In this paper, we present the largest manually labeled dataset for mapping user locations on Arabic Twitter to their corresponding countries. We build effective machine learning models that can automate this mapping with significantly better efficiency compared to libraries such as geopy. We also show that our dataset is more effective than data extracted from GeoNames geographical database in this task as the latter covers only locations written in formal ways.",
 }
 @article{luo-etal-2021-deciphering,
     title = "Deciphering Undersegmented Ancient Scripts Using Phonetic Prior",
@@ -301,52 +457,6 @@
     doi = "10.18653/v1/2021.acl-long.561",
     pages = "7226--7235",
     abstract = "Decipherment of historical ciphers is a challenging problem. The language of the target plaintext might be unknown, and ciphertext can have a lot of noise. State-of-the-art decipherment methods use beam search and a neural language model to score candidate plaintext hypotheses for a given cipher, assuming the plaintext language is known. We propose an end-to-end multilingual model for solving simple substitution ciphers. We test our model on synthetic and real historical ciphers and show that our proposed method can decipher text without explicit language identification while still being robust to noise.",
-}
-@article{chen-etal-2020-acoustic,
-    title = "Acoustic-Prosodic and Lexical Cues to Deception and Trust: Deciphering How People Detect Lies",
-    author = "Chen, Xi (Leslie)  and
-      Levitan, Sarah Ita  and
-      Levine, Michelle  and
-      Mandic, Marko  and
-      Hirschberg, Julia",
-    journal = "Transactions of the Association for Computational Linguistics",
-    volume = "8",
-    year = "2020",
-    address = "Cambridge, MA",
-    publisher = "MIT Press",
-    url = "https://aclanthology.org/2020.tacl-1.14",
-    doi = "10.1162/tacl_a_00311",
-    pages = "199--214",
-    abstract = "Humans rarely perform better than chance at lie detection. To better understand human perception of deception, we created a game framework, LieCatcher, to collect ratings of perceived deception using a large corpus of deceptive and truthful interviews. We analyzed the acoustic-prosodic and linguistic characteristics of language trusted and mistrusted by raters and compared these to characteristics of actual truthful and deceptive language to understand how perception aligns with reality. With this data we built classifiers to automatically distinguish trusted from mistrusted speech, achieving an F1 of 66.1{\%}. We next evaluated whether the strategies raters said they used to discriminate between truthful and deceptive responses were in fact useful. Our results show that, although several prosodic and lexical features were consistently perceived as trustworthy, they were not reliable cues. Also, the strategies that judges reported using in deception detection were not helpful for the task. Our work sheds light on the nature of trusted language and provides insight into the challenging problem of human deception detection.",
-}
-@inproceedings{hoge-2020-cortical,
-    title = "Cortical Speech Databases For Deciphering the Articulatory Code",
-    author = {H{\"o}ge, Harald},
-    booktitle = "Proceedings of the Twelfth Language Resources and Evaluation Conference",
-    month = may,
-    year = "2020",
-    address = "Marseille, France",
-    publisher = "European Language Resources Association",
-    url = "https://aclanthology.org/2020.lrec-1.17",
-    pages = "133--137",
-    abstract = "The paper relates to following {`}AC-hypotheses{'}: The articulatory code (AC) is a neural code exchanging multi-item messages between the short-term memory and cortical areas as the vSMC and STG. In these areas already neurons active in the presence of articulatory features have been measured. The AC codes the content of speech segmented in chunks and is the same for both modalities - speech perception and speech production. Each AC-message is related to a syllable. The items of each message relate to coordinated articulatory gestures composing the syllable. The mechanism to transport the AC and to segment the auditory signal is based on Ɵ/γ-oscillations, where a Ɵ-cycle has the duration of a Ɵ-syllable. The paper describes the findings from neuroscience, phonetics and the science of evolution leading to the AC-hypotheses. The paper proposes to verify the AC-hypotheses by measuring the activity of all ensembles of neurons coding and decoding the AC. Due to state of the art, the cortical measurements to be prepared, done and further processed need a high effort from scientists active in different areas. We propose to launch a project to produce cortical speech databases with cortical recordings synchronized with the speech signal allowing to decipher the articulatory code.",
-    language = "English",
-    ISBN = "979-10-95546-34-4",
-}
-@inproceedings{xu-chamberlain-2020-cipher,
-    title = "{C}ipher: A Prototype Game-with-a-Purpose for Detecting Errors in Text",
-    author = "Xu, Liang  and
-      Chamberlain, Jon",
-    booktitle = "Workshop on Games and Natural Language Processing",
-    month = may,
-    year = "2020",
-    address = "Marseille, France",
-    publisher = "European Language Resources Association",
-    url = "https://aclanthology.org/2020.gamnlp-1.3",
-    pages = "17--25",
-    abstract = "Errors commonly exist in machine-generated documents and publication materials; however, some correction algorithms do not perform well for complex errors and it is costly to employ humans to do the task. To solve the problem, a prototype computer game called Cipher was developed that encourages people to identify errors in text. Gamification is achieved by introducing the idea of steganography as the entertaining game element. People play the game for entertainment while they make valuable annotations to locate text errors. The prototype was tested by 35 players in a evaluation experiment, creating 4,764 annotations. After filtering the data, the system detected manually introduced text errors and also genuine errors in the texts that were not noticed when they were introduced into the game.",
-    language = "English",
-    ISBN = "979-10-95546-40-5",
 }
 @inproceedings{chu-etal-2020-learning,
     title = "{L}earning to {P}ronounce {C}hinese {W}ithout a {P}ronunciation {D}ictionary",
@@ -1373,15 +1483,6 @@
     pages = "3073--3085",
     abstract = "We present the Berkeley Crossword Solver, a state-of-the-art approach for automatically solving crossword puzzles. Our system works by generating answer candidates for each crossword clue using neural question answering models and then combines loopy belief propagation with local search to find full puzzle solutions. Compared to existing approaches, our system improves exact puzzle accuracy from 57{\%} to 82{\%} on crosswords from The New York Times and obtains 99.9{\%} letter accuracy on themeless puzzles. Our system also won first place at the top human crossword tournament, which marks the first time that a computer program has surpassed human performance at this event. To facilitate research on question answering and crossword solving, we analyze our system{'}s remaining errors and release a dataset of over six million question-answer pairs.",
 }
-
-@inproceedings{Nuhn2013DeciphermentCI,
-  title={Decipherment Complexity in 1:1 Substitution Ciphers},
-  author={Malte Nuhn and Hermann Ney},
-  booktitle={ACL},
-  year={2013},
-  url={https://aclanthology.org/P13-1060.pdf},
-}
-
 @inproceedings{Knight1999ACA,
   title={A Computational Approach to Deciphering Unknown Scripts},
   author={Kevin Knight and Kenji Yamada},
@@ -1616,13 +1717,6 @@ url={https://doi.org/10.1038/s41586-022-04448-z}
   booktitle={BUCC@ACL},
   year={2011},
 url={https://aclanthology.org/W11-1202.pdf},
-}
-@article{Aldarrab2022SegmentingNS,
-  title={Segmenting Numerical Substitution Ciphers},
-  author={Nada Aldarrab and Jonathan May},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2205.12527}
 }
 @article{hauer-kondrak-2016-decoding,
     title = "Decoding Anagrammed Texts Written in an Unknown Language and Script",
@@ -1898,15 +1992,6 @@ url = {https://www.researchgate.net/publication/338989490_An_efficient_automated
 @misc{LexicalD18,
 title = {Lexical Distance Among Languages of Europe 2015 Alternative Transport},
 url={https://alternativetransport.wordpress.com/2015/05/05/34/},
-}
-@article{Assael2022RestoringAA,
-  title={Restoring and attributing ancient texts using deep neural networks},
-  author={Yannis Assael and Thea Sommerschield and Brendan Shillingford and Mahyar Bordbar and John Pavlopoulos and Marita Chatzipanagiotou and Ion Androutsopoulos and J. Prag and Nando de Freitas},
-  journal={Nature},
-  year={2022},
-  volume={603},
-  pages={280 - 283},
-  url={https://www.semanticscholar.org/paper/Restoring-and-attributing-ancient-texts-using-deep-Assael-Sommerschield/1a5ce3a1d1fd6a39dc6ec5a739f76002630a0310},
 }
 
 @inproceedings{Barannikov2022RepresentationTD,
